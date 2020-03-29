@@ -1,0 +1,11 @@
+name: WildTrade
+main: com.gmail.filoghost.wildtrade.WildTrade
+version: 1.0
+
+softdepend: [WildCommons, Vault]
+
+commands:
+   trade:
+      description: Commercia con qualcuno.
+      usage: /<command>
+      aliases: [wildtrade]
